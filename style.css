@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+  }
+  .headers{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+  }
+  .course-header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/coursebg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+  }
+  .navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+  }
+  
+  .brand{
+    font-size: 20px;
+    margin: .5rem;
+    color: #fff;
+  }
+  .navbarlinks{
+    list-style: none;
+  }
+  .navbarlinks li{
+   display: inline-block;
+  
+  }
+  
+  .navbarlinks li a{
+  text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 20px;
+  }
+  .navbarlinks li a:hover{
+    color: orangered;
+    transition: 1s;
+  }
+  
+  .textbox{
+    color: white;
+    width: 90%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .textbox h1{
+  
+    font-size: 50px;
+  
+  }
+  
+  .textbox p{
+     margin:10px 0 40px;
+    font-size: 20px;
+  
+  }
+  
+  .textbox a{
+    display: inline-block;
+     text-decoration: none;
+     font-size: 20px;
+     border: 1px solid #fff;
+     background: transparent;
+     padding: 12px 34px;
+     color:white;
+     font-weight: bold;
+  }
+  
+  .textbox a:hover{
+  border: 1 px solid #f44336;
+  background-color: #f44336;
+  transition: 2s;
+  
+  }
+  .togglebtn{
+    position:absolute;
+    top: 1rem;
+    right: 2rem;
+    display: none ;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .togglebtn .bar{
+      
+      height: 3px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px;
+  
+  }
+  .uni{
+    color: #f44336;
+  }
+
+
+
+  /*course*/
+  .course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .course h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+ 
+
+
+  .course p{
+    color:#777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+
+  }
+
+   /*course row*/
+   .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .course-col{
+
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col h3{
+  text-align: center;
+  font-weight: 600;
+  margin:10px  ;
+}
+.course-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*campus*/
+
+.campus{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.campus h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.campus p{
+  color:#777;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+
+}
+.campus-row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.campus-col{
+  
+ flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+ position: relative;
+ overflow: hidden;
+  
+}
+.campus-col img{
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+.layer{
+  background:transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.layer:hover{
+  background: rgba(226,0,0,0.7);
+ 
+}
+.layer h3{
+  width: 100%;
+  font-weight: 600;
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  transition: 1.s;
+
+}
+
+  
+
+/*facilities*/
+.facilities{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.facilities h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.facilities p{
+  color:#777;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+
+}
+.facirow{
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  
+
+}
+.facicards{
+  height: 400px;
+  width: 300px;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin: 20px;
+  
+}
+
+.facicards img{
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+.facicards h4{
+  font-size: 20px;
+  
+}
+
+.facicards p{
+  font-size: 15px;
+  font-weight: 300;
+;
+
+}
+
+.facicards:hover{
+box-shadow:  0 0 15px red;
+}
+
+/*footer*/
+footer{
+    
+  background: black;
+  height: 50vh;
+  width: 100vw; 
+  font-family: sans-serif;
+  color: white;
+  
+}
+.footer-content{
+text-align: center;
+
+}
+footer h2{
+   padding-top: 20px;
+   color: white;
+}
+.socials {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin:1rem 0 3rem 0;
+      
+}
+
+.socials li{
+   margin: 10px;
+   flex-wrap: wrap;
+}
+
+.socials li a{
+ text-decoration: none;
+ color:white;
+ font-size: 30px;
+}
+
+.socials li a:hover{
+color: orange;
+transition: .5s;
+}
+
+
+
+  @media(max-width:700px){
+    .togglebtn{
+      display: flex;
+      position: absolute;
+      top: 40px;
+      
+    }
+  
+    .navbarlinks{
+      display: none;
+     height: 300px;
+      width: 100%;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(15px);
+      border-radius: 10px;
+      overflow: hidden;
+      z-index: 1;
+    }
+    /*
+    .brand{
+     text-align: center;
+    }*/
+    .navbar{
+      flex-direction:column ;
+      align-items: flex-start;
+    }
+  
+    
+    .navbarlinks ul li{
+      width: 100%;
+      flex-direction:column ;
+      text-align: center;
+      padding: 1rem
+     }
+  
+     .navbarlinks ul li a{
+     font-size: 20px;
+     font-weight: bold;
+     }
+  
+     .navbarlinks.active{
+      display: flex;
+     }
+  
+     .textbox h1{
+  
+      font-size: 30px;
+  
+  }
+  .textbox p{
+    margin:10px 0 50px;
+   font-size: 15px;
+  
+  }
+  
+  .textbox a{
+   display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px 24px;
+    color:white;
+    font-weight: bold;
+
+  }
+  .row{
+    flex-direction: column;
+  }
+  .campus-row{
+    flex-direction: column;
+  }
+
+  .facirow{
+ 
+  flex-direction: column;
+  }
+  }
+  @media(max-width:481px){
+    .footer-content{
+    
+      text-align: center;
+      padding-right: 20px;
+      
+    }
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
