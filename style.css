@@ -10,7 +10,7 @@
   .header{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/background.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   .headers{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/about.jpg);
+    background-image: url(images/about.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
   .course-header{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/coursebg.jpg);
+    background-image: url(images/coursebg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
